@@ -1,10 +1,10 @@
 # Quantitative Risk & Multi-Sector Equity Research Portfolio
 
-![CI Workflow](https://github.com/stefan931025-sys/Portfolio-Research/actions/workflows/ci.yml/badge.svg)
+![CI Workflow](https://github.com/stefan931025-sys/portfolio-research/actions/workflows/ci.yml/badge.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-Central repository for quantitative and fundamental equity research. Features a hybrid GARCH-LSTM volatility engine for time-series forecasting and an institutional-grade stock pitch for Nasdaq, Inc. (NDAQ) focused on SaaS-driven recurring revenue models and M&A synergy analysis.
+Central repository for quantitative and fundamental equity research. Features a hybrid GARCH LSTM volatility engine for time-series forecasting and an institutional-grade stock pitch for Nasdaq, Inc. (NDAQ) focused on SaaS-driven recurring revenue models and M&A synergy analysis.
 
 ## 🚀 Executive Overview
 
@@ -29,9 +29,27 @@ The underlying assets span multiple uncorrelated sectors, demonstrating an advan
 * **Thesis:** Analyzing the long-term corporate transition away from highly cyclical, volume-dependent transactional matching engines into a premium-multiple, SaaS-driven recurring revenue model. Includes comprehensive segment analysis on software solutions, index licensing, and market technology.
 
 ### Pitch #2: Palantir Technologies (NYSE: PLTR)
-* **Strategy: Enterprise AI Monopolization & Commercial Scaling.**
+* **Strategy:** Enterprise AI Monopolization & Commercial Scaling.
 * **Thesis:** Evaluation of AIP (Artificial Intelligence Platform) deployment velocity, government-to-commercial revenue diversification, and high operating leverage conversion through standardized ontology engineering.
 
 ### Pitch #3: NVIDIA Corp. (NASDAQ: NVDA) & General Motors (NYSE: GM)
 * **Strategy:** Hardware Ecosystem Moats & Cyclical Capital Discipline.
-*
+* **Thesis:** Evaluates semiconductor pricing power, accelerated computing dominance, and legacy automotive capital allocation strategies.
+
+---
+
+## 📁 Repository Structure
+
+```text
+portfolio-research/
+├── .devcontainer/             # Devcontainer configuration for Codespaces
+├── .github/
+│   └── workflows/
+│       └── ci.yml             # GitHub Actions automated test workflow
+├── core/                      # Quantitative volatility & risk models
+├── tests/                     # Automated pytest suite
+├── pitches/                   # Institutional stock pitch Markdown memos & CSV models
+├── main.py                    # Main execution pipeline script
+├── repo_auditor.py            # Static AST analysis governance tool
+├── requirements.txt           # Python dependencies
+└── README.md                  # System documentation
